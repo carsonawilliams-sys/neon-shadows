@@ -47,17 +47,3 @@
 If you help build the sprawl — whether with code, ideas, bug reports, or flavor text — your name belongs here.
 
 **Stay frosty, choom.**
-
----
-
----
-
-**Next Step:**
-
-Add this file to your repo, then let me know if you want me to:
-
-- Update the README to link to `CREDITS.md`, `GUESTBOOK.md`, and `CONTRIBUTING.md`
-- Start working on the **Save/Load system**
-- Or anything else
-
-Just say the word.
