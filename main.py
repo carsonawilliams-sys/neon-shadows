@@ -92,7 +92,7 @@ def combat(player, enemy):
             continue
         elif choice == "4":
             if random.random() > 0.45:
-                print_slow("You escaped!")
+                print_slow("You escaped into the neon!")
                 return True
             else:
                 print_slow("Couldn't escape!")
@@ -130,7 +130,6 @@ def explore(player):
 
         roll = random.random()
         if roll < 0.3:
-            # Combat
             enemies = [
                 Enemy("Street Thug", 50, 18, 160),
                 Enemy("Corporate Security", 65, 24, 240),
@@ -160,7 +159,7 @@ def explore(player):
 def main():
     print("\n" + "═"*70)
     print_slow("       NEON SHADOWS: CHROME & BLOOD")
-    print_slow("            Cyberpunk Text RPG")
+    print_slow("            Cyberpunk Runner RPG")
     print("═"*70)
 
     name = input("\nEnter your street name, runner: ").strip() or "Ghost"
@@ -184,7 +183,7 @@ def main():
             explore(player)
         elif choice == "2":
             if player.location == "Black Market Alley":
-                print_slow("\nBlack Market Dealer: What do you need?")
+                print_slow("\nBlack Market Dealer: What do you need, runner?")
                 if player.credits >= 550:
                     if input("Buy Cyberarm (+25 Max Health) for ¥550? (y/n): ").lower() == 'y':
                         player.credits -= 550
@@ -202,7 +201,7 @@ def main():
             print("\nInventory:", player.inventory)
             print("Cyberware:", player.cyberware)
         elif choice == "5":
-            print_slow(f"\n{player.name} disconnects... Stay frosty.")
+            print_slow(f"\n{player.name} disconnects... Stay frosty, runner.")
             break
         else:
             print_slow("Invalid choice.")
