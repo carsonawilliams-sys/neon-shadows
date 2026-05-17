@@ -2,7 +2,7 @@
 
 **A Cyberpunk Text-Based RPG** built in Python.
 
-In the year **2087**, you are a runner navigating the neon-drenched streets of the Sprawl.  
+In the year **2087**, you are a **runner** navigating the neon-drenched streets of the Sprawl.  
 One wrong move and you flatline. One big score and you might just buy your freedom.
 
 ---
@@ -12,8 +12,7 @@ One wrong move and you flatline. One big score and you might just buy your freed
 - Turn-based combat (guns + neural hacking)
 - Dynamic exploration with multiple locations
 - Reputation system & fixer jobs
-- Cyberware upgrades
-- Black market shopping
+- Cyberware upgrades & black market shopping
 - Random events and loot
 - Full cyberpunk atmosphere
 
