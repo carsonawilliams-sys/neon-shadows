@@ -1,0 +1,5 @@
+# requirements.txt
+# No external dependencies for now (pure Python)
+# Add future libraries here, e.g.:
+# pygame
+# rich
