@@ -56,9 +56,4 @@ We will only start larger projects if there is real interest from the community 
 Leave your thoughts in the [GUESTBOOK.md](GUESTBOOK.md) or open an Issue.
 
 **The Sprawl grows with every runner who jacks in.**
-
----
-
-Would you like me to update the `README.md` to include a link to this new `FUTURE-PROJECTS.md` file?
-
 Also, let me know if you want to adjust any of the project ideas.
